@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toofan Pest Control</title>
+    
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.logo p {
+    font-size: 12px;
+    color: #777;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info span {
+    color: #e53935;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.quote-btn {
+    padding: 10px 20px;
+    background-color: #e53935;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.call-for {
+    color: #e53935;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.contact-btn {
+    padding: 10px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 400px;
+    height: auto;
+}
+
+.services {
+    width: 80%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    text-align: center;
+    width: 150px;
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 14px;
+    color: #333;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>TOOFAN</h1>
+            <p>PEST CONTROL</p>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">FAQs</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="contact-info">
+            <span>03-1234567</span>
+            <button class="quote-btn">Fast Quote</button>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-text">
+            <p class="call-for">Call For</p>
+            <h1>Professional Pest Control</h1>
+            <p>Looking for an affordable pest control and disinfection service?<br>We are here to get rid of annoying bugs.</p>
+            <button class="contact-btn">Contact Us</button>
+        </div>
+        <div class="hero-image">
+            <!-- Illustrative image -->
+            <img src="living-room.png" alt="Living Room with Sofa">
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="service">
+            <img src="icon1.png" alt="100% Professional">
+            <p>100% Professional</p>
+        </div>
+        <div class="service">
+            <img src="icon2.png" alt="Termites">
+            <p>Termites</p>
+        </div>
+        <div class="service">
+            <img src="icon3.png" alt="All Pest Control">
+            <p>All Pest Control</p>
+        </div>
+        <div class="service">
+            <img src="icon4.png" alt="Same Day Services">
+            <p>Same Day Services</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
